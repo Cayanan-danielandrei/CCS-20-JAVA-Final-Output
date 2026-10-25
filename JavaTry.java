@@ -446,8 +446,8 @@ public class JavaTry {
                                 System.out.println("--------------------------------------------");
                                 System.out.println("|       YOUR JEEPNEY FARE GUIDE            |");
                                 System.out.println("|                                          |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                   |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                    |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                 |");
                                 System.out.println("| Color of jeepney : Silver or Purple      |");
                                 System.out.println("| Place to wait : Astro Area               |");
                                 System.out.println("|                                          |");
@@ -473,8 +473,8 @@ public class JavaTry {
                                 System.out.println("---------------------------------------------");
                                 System.out.println("|       YOUR JEEPNEY FARE GUIDE             |");
                                 System.out.println("|                                           |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                   |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                     |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                  |");
                                 System.out.println("| Color of jeepney : Yellow                 |");
                                 System.out.println("| Place to wait : Villa Pampang             |");
                                 System.out.println("|                                           |");
@@ -500,8 +500,8 @@ public class JavaTry {
                                 System.out.println("----------------------------------------------");
                                 System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
                                 System.out.println("|                                            |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                   |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
                                 System.out.println("| Color of jeepney : Purple or Gray          |");
                                 System.out.println("| Place to wait : Clark Astro Park           |");
                                 System.out.println("|                                            |");
@@ -527,8 +527,8 @@ public class JavaTry {
                                 System.out.println("------------------------------------------------------");
                                 System.out.println("|       YOUR JEEPNEY FARE GUIDE                      |");
                                 System.out.println("|                                                    |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                               |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                              |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                           |");
                                 System.out.println("| Color of jeepney : Orange Roof Top                 |");
                                 System.out.println("| Place to wait : Marquee Mall Terminal              |");
                                 System.out.println("|                                                    |");
@@ -623,38 +623,29 @@ public class JavaTry {
                                 System.out.println("==========================================");
                         }
 
-
-        
-
-
-   
-
-
-
-
-
-
-
                 // User input if the user wants to search again or no //
-                System.out.println("==========================");
-                System.out.println("| Search again? (yes/no) |");
-                System.out.println("==========================");
-                again = sc.next();
+                // Do-While loop //
+                do {
+                    System.out.println("==========================");
+                    System.out.println("| Search again? (yes/no) |");
+                    System.out.println("==========================");
+                    again = sc.next();
+                
+                // If statement if the user input a wrong word //
+                    if (!again.equalsIgnoreCase("yes") && !again.equalsIgnoreCase("no")) {
+                        System.out.println("Please enter only Yes or No.");
+                    }
+                } while (!again.equalsIgnoreCase("yes") && !again.equalsIgnoreCase("no"));
 
-                // if statement if the user entered no //
+        // do-while loop. this will let the user return to the First Menu only when the answer is yes //
+        } while (again.equalsIgnoreCase("yes"));
 
-
-        // do-while loop. this will let the user return to the First Menu //
-        } while (!again.equalsIgnoreCase("no"));
-
-                        // if statement if the user entered no //
-                        if (again.equalsIgnoreCase("no")) {
+                        // Display the thank-you message after the user chooses not to continue //
                         System.out.println("==========================================");
                         System.out.println("| THANK YOU FOR USING JEEPNEY FARE GUIDE |");
                         System.out.println("==========================================");
-                }
 
-        sc.close();
+        sc.close(); // For Closing the program //
     }
 
     
