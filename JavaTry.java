@@ -105,15 +105,18 @@ public class JavaTry {
                                          int CalcuDisFare = (TotalPass * DisFare);
                                 
                                 // Output for all the computation //
-                                System.out.println("-----------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE         |");
-                                System.out.println("|                                       |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                 |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP              |");
-                                System.out.println("| Color of jeepney : Green              |");
-                                System.out.println("| Place to wait : Main Entrance of AUF  |");
-                                System.out.println("|                                       |");
-                                System.out.println("-----------------------------------------");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
+                                System.out.println("| Color of jeepney : Green                   |");
+                                System.out.println("| Place to wait : Main Entrance of AUF       |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
+                                System.out.println("----------------------------------------------");
                         } else if (SecondChoice == 2) {
                                 System.out.println("---------------------------------------------");
                                 System.out.println("| Your destination is Holy Angel University |");
@@ -132,14 +135,17 @@ public class JavaTry {
                                          int CalcuRegFare = (TotalPass * RegFare);
                                          int CalcuDisFare = (TotalPass * DisFare);
 
-                                System.out.println("---------------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE             |");
-                                System.out.println("|                                           |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                     |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                  |");
-                                System.out.println("| Color of jeepney : Green or Purple        |");
-                                System.out.println("| Place to wait : Main Entrance of AUF      |");
-                                System.out.println("|                                           |");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
+                                System.out.println("| Color of jeepney : Green or Purple         |");
+                                System.out.println("| Place to wait : Main Entrance of AUF       |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
                                 System.out.println("---------------------------------------------");
                         } else if (SecondChoice == 3) {
                                 System.out.println("------------------------------------------");
@@ -159,15 +165,18 @@ public class JavaTry {
                                          int CalcuRegFare = (TotalPass * RegFare);
                                          int CalcuDisFare = (TotalPass * DisFare);
 
-                                System.out.println("-----------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE          |");
-                                System.out.println("|                                        |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                  |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP               |");
-                                System.out.println("| Color of jeepney : Green or Purple     |");
-                                System.out.println("| Place to wait : Main Entrance of AUF   |");
-                                System.out.println("|                                        |");
-                                System.out.println("------------------------------------------");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
+                                System.out.println("| Color of jeepney : Green or Purple         |");
+                                System.out.println("| Place to wait : Main Entrance of AUF       |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
+                                System.out.println("----------------------------------------------");
                         } else if (SecondChoice == 4) {
                                 System.out.println("------------------------------------------");
                                 System.out.println("| Your destination is Nepo Quad          |");
@@ -186,15 +195,18 @@ public class JavaTry {
                                          int CalcuRegFare = (TotalPass * RegFare);
                                          int CalcuDisFare = (TotalPass * DisFare); 
 
-                                System.out.println("-----------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE          |");
-                                System.out.println("|                                        |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                  |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP               |");
-                                System.out.println("| Color of jeepney : Green               |");
-                                System.out.println("| Place to wait : Main Entrance of AUF   |");
-                                System.out.println("|                                        |");
-                                System.out.println("------------------------------------------");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
+                                System.out.println("| Color of jeepney : Green                   |");
+                                System.out.println("| Place to wait : Main Entrance of AUF       |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
+                                System.out.println("----------------------------------------------");
                         } else if (SecondChoice == 5) {
                                 System.out.println("------------------------------------------");
                                 System.out.println("| Your destination is Marquee            |");
@@ -213,15 +225,18 @@ public class JavaTry {
                                          int CalcuRegFare = (TotalPass * RegFare);
                                          int CalcuDisFare = (TotalPass * DisFare); 
 
-                                System.out.println("------------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE          |");
-                                System.out.println("|                                        |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                  |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP               |");
-                                System.out.println("| Color of jeepney : Blue                |");
-                                System.out.println("| Place to wait : Rotonda & Caltex       |");
-                                System.out.println("|                                        |");
-                                System.out.println("------------------------------------------");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
+                                System.out.println("| Color of jeepney : Blue                    |");
+                                System.out.println("| Place to wait : Rotonda & Caltex           |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
+                                System.out.println("----------------------------------------------");
                         } else {
                                 System.out.println("==========================================");
                                 System.out.println("|         NO KNOWN DESTINATION           |");
@@ -265,15 +280,18 @@ public class JavaTry {
                                          int CalcuDisFare = (TotalPass * DisFare); 
 
 
-                                System.out.println("------------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE          |");
-                                System.out.println("|                                        |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                  |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP               |");
-                                System.out.println("| Color of jeepney : Green               |");
-                                System.out.println("| Place to wait : Main Entrance of AUF   |");
-                                System.out.println("|                                        |");
-                                System.out.println("-----------------------------------------");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
+                                System.out.println("| Color of jeepney : Green                   |");
+                                System.out.println("| Place to wait : Main Entrance of AUF       |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
+                                System.out.println("----------------------------------------------");
                         } else if (SecondChoice == 2) {
                                 System.out.println("---------------------------------------------------------");
                                 System.out.println("| Your destination is Bayanihan Park (Clark Astro Park) |");
@@ -293,15 +311,18 @@ public class JavaTry {
                                          int CalcuDisFare = (TotalPass * DisFare); 
 
 
-                                System.out.println("---------------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE             |");
-                                System.out.println("|                                           |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                     |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                  |");
-                                System.out.println("| Color of jeepney : Green                  |");
-                                System.out.println("| Place to wait : Main Entrance of AUF      |");
-                                System.out.println("|                                           |");
-                                System.out.println("---------------------------------------------");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
+                                System.out.println("| Color of jeepney : Green                   |");
+                                System.out.println("| Place to wait : Main Entrance of AUF       |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
+                                System.out.println("----------------------------------------------");
                         } else if (SecondChoice == 3) {
                                 System.out.println("------------------------------------------");
                                 System.out.println("| Your destination is Clark Cityfront    |");
@@ -320,15 +341,18 @@ public class JavaTry {
                                          int CalcuDisFare = (TotalPass * DisFare); 
 
 
-                                System.out.println("------------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE          |");
-                                System.out.println("|                                        |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                  |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP               |");
-                                System.out.println("| Color of jeepney : Green               |");
-                                System.out.println("| Place to wait : Main Entrance of AUF   |");
-                                System.out.println("|                                        |");
-                                System.out.println("------------------------------------------");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
+                                System.out.println("| Color of jeepney : Green                   |");
+                                System.out.println("| Place to wait : Main Entrance of AUF       |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
+                                System.out.println("----------------------------------------------");
                         } else if (SecondChoice == 4) {
                                 System.out.println("---------------------------------------------------------");
                                 System.out.println("|      Your destination is Clark International Airport  |");
@@ -355,6 +379,9 @@ public class JavaTry {
                                 System.out.println("| Color of jeepney : Any Color                          |");
                                 System.out.println("| Place to wait : SM City Clark Jeep Terminal           |");
                                 System.out.println("|                                                       |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + "            |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "           |" );
+                                System.out.println("|                                                       |");
                                 System.out.println("---------------------------------------------------------");
                         } else if (SecondChoice == 5) {
                                 System.out.println("-------------------------------------------");
@@ -374,15 +401,18 @@ public class JavaTry {
                                          int CalcuRegFare = (TotalPass * RegFare);
                                          int CalcuDisFare = (TotalPass * DisFare); 
 
-                                System.out.println("-------------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE           |");
-                                System.out.println("|                                         |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                   |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                |");
-                                System.out.println("| Color of jeepney : Yellow or Grey       |");
-                                System.out.println("| Place to wait : Main Gate               |");
-                                System.out.println("|                                         |");
-                                System.out.println("-------------------------------------------");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
+                                System.out.println("| Color of jeepney : Yellow or Grey          |");
+                                System.out.println("| Place to wait : Main Gate                  |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
+                                System.out.println("----------------------------------------------");
                         } else {
                                 System.out.println("==========================================");
                                 System.out.println("|         NO KNOWN DESTINATION           |");
@@ -428,7 +458,7 @@ public class JavaTry {
                     if (SecondChoice == 1) {
                                 System.out.println("--------------------------------------------");
                                 System.out.println("|   Your destination is Mabiga (Mabalacat) |");
-                                  System.out.println("------------------------------------------");
+                                System.out.println("--------------------------------------------");
 
                                         int TotalPass;
                                         int RegFare = 25;
@@ -443,19 +473,22 @@ public class JavaTry {
                                          int CalcuRegFare = (TotalPass * RegFare);
                                          int CalcuDisFare = (TotalPass * DisFare); 
 
-                                System.out.println("--------------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE            |");
-                                System.out.println("|                                          |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                    |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                 |");
-                                System.out.println("| Color of jeepney : Silver or Purple      |");
-                                System.out.println("| Place to wait : Astro Area               |");
-                                System.out.println("|                                          |");
-                                System.out.println("--------------------------------------------");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
+                                System.out.println("| Color of jeepney : Silver or Purple        |");
+                                System.out.println("| Place to wait : Astro Area                 |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
+                                System.out.println("----------------------------------------------");
                     } else if (SecondChoice == 2) {
                                 System.out.println("---------------------------------------------");
                                 System.out.println("|      Your destination is San Fernando     |");
-                                  System.out.println("-----------------------------------------");
+                                System.out.println("---------------------------------------------");
 
                                         int TotalPass;
                                         int RegFare = 25;
@@ -470,19 +503,22 @@ public class JavaTry {
                                          int CalcuRegFare = (TotalPass * RegFare);
                                          int CalcuDisFare = (TotalPass * DisFare); 
 
-                                System.out.println("---------------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE             |");
-                                System.out.println("|                                           |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                     |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                  |");
-                                System.out.println("| Color of jeepney : Yellow                 |");
-                                System.out.println("| Place to wait : Villa Pampang             |");
-                                System.out.println("|                                           |");
-                                System.out.println("---------------------------------------------");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                      |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                   |");
+                                System.out.println("| Color of jeepney : Yellow                  |");
+                                System.out.println("| Place to wait : Villa Pampang              |");
+                                System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
+                                System.out.println("----------------------------------------------");
                     } else if (SecondChoice == 3) {
                                 System.out.println("----------------------------------------------");
                                 System.out.println("| Your destination is Mabalacat Town Proper  |");
-                                  System.out.println("--------------------------------------------");
+                                System.out.println("----------------------------------------------");
 
                                         int TotalPass;
                                         int RegFare = 25;
@@ -505,11 +541,14 @@ public class JavaTry {
                                 System.out.println("| Color of jeepney : Purple or Gray          |");
                                 System.out.println("| Place to wait : Clark Astro Park           |");
                                 System.out.println("|                                            |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + " |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "|" );
+                                System.out.println("|                                            |");
                                 System.out.println("----------------------------------------------");
                     } else if (SecondChoice == 4) {
                                 System.out.println("------------------------------------------------------");
                                 System.out.println("|             Your destination is Magalang           |");
-                                  System.out.println("----------------------------------------------------");
+                                System.out.println("------------------------------------------------------");
 
                                         int TotalPass;
                                         int RegFare = 25;
@@ -532,6 +571,9 @@ public class JavaTry {
                                 System.out.println("| Color of jeepney : Orange Roof Top                 |");
                                 System.out.println("| Place to wait : Marquee Mall Terminal              |");
                                 System.out.println("|                                                    |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + "         |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "        |" );
+                                System.out.println("|                                                    |");
                                 System.out.println("------------------------------------------------------");
                     } else if (SecondChoice == 5) {
                                 System.out.println("-------------------------------------------");
@@ -551,15 +593,18 @@ public class JavaTry {
                                          int CalcuRegFare = (TotalPass * RegFare);
                                          int CalcuDisFare = (TotalPass * DisFare); 
 
-                                System.out.println("-------------------------------------------");
-                                System.out.println("|       YOUR JEEPNEY FARE GUIDE           |");
-                                System.out.println("|                                         |");
-                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                   |");
-                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                |");
-                                System.out.println("| Color of jeepney : Blue or Purple       |");
-                                System.out.println("| Place to wait : Main Entrance of AUF    |");
-                                System.out.println("|                                         |");
-                                System.out.println("-------------------------------------------");
+                                System.out.println("-----------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE               |");
+                                System.out.println("|                                             |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                       |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                    |");
+                                System.out.println("| Color of jeepney : Blue or Purple           |");
+                                System.out.println("| Place to wait : Main Entrance of AUF        |");
+                                System.out.println("|                                             |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + "  |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + " |" );
+                                System.out.println("|                                             |");
+                                System.out.println("-----------------------------------------------");
                     } else {
                                 System.out.println("==========================================");
                                 System.out.println("|         NO KNOWN DESTINATION           |");
