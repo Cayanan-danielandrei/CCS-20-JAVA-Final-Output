@@ -678,7 +678,10 @@ public class JavaTry {
                 
                 // If statement if the user input a wrong word //
                     if (!again.equalsIgnoreCase("yes") && !again.equalsIgnoreCase("no")) {
-                        System.out.println("Please enter only Yes or No.");
+                        System.out.println("");
+                        System.out.println("================================");
+                        System.out.println("| Please enter only Yes or No. |");
+                        System.out.println("================================");
                     }
                 } while (!again.equalsIgnoreCase("yes") && !again.equalsIgnoreCase("no"));
 
