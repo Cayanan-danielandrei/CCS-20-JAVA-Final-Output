@@ -611,24 +611,112 @@ public class JavaTry {
                                 System.out.println("==========================================");
                         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                // PANDAN //      
+                 //Pandan
                 } else if (FirstChoice == 5) {
                     System.out.println("| Your destination is Pandan       |");
                     System.out.println("------------------------------------"); 
+                    System.out.println("-----------------------------------------");
+                    System.out.println("| Type your desired destionation         |");
+                    System.out.println("| 1 for Puregold                         |");
+                    System.out.println("| 2 for Jollibee                         |");
+                    System.out.println("| 3 for Dalisay RMS Grocery              |");
+                    System.out.println("-----------------------------------------");
+
+                        SecondChoice = sc.nextInt();
+                            System.out.println("----------------------");
+                            System.out.println("| You have chosen: " + SecondChoice + " |");
+                            System.out.println("----------------------");
+                        if (SecondChoice == 1) {
+                                System.out.println("------------------------------------");
+                                System.out.println("| Your destination is Puregold     |");
+                                System.out.println("------------------------------------");
+                            
+                                        int TotalPass;
+                                        int RegFare = 16;
+                                        int DisFare = 14;
+                                        System.out.println("----------------------------------");
+                                        System.out.println("|      How many passengers?      |");
+                                        System.out.println("----------------------------------");
+
+                                        //Computation for Fares //
+                                        TotalPass = sc.nextInt();
+                                         int CalcuRegFare = (TotalPass * RegFare);
+                                         int CalcuDisFare = (TotalPass * DisFare);
+                                
+                                System.out.println("------------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE                |");
+                                System.out.println("|                                              |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                        |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                     |");
+                                System.out.println("| Color of jeepney : Blue                      |");
+                                System.out.println("| Place to wait : Marquee Transport-           |");
+                                System.out.println("|          : Terminal & Plaridel Street        |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + "   |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "  |" );                                
+                                System.out.println("------------------------------------------------");
+                        } else if (SecondChoice == 2) {
+                                System.out.println("---------------------------------------------");
+                                System.out.println("| Your destination is Jollibee              |");
+                                System.out.println("---------------------------------------------");
+
+                                        int TotalPass;
+                                        int RegFare = 16;
+                                        int DisFare = 14;
+
+                                        System.out.println("----------------------------------");
+                                        System.out.println("|      How many passengers?      |");
+                                        System.out.println("----------------------------------");
+
+                                        
+                                        TotalPass = sc.nextInt();
+                                         int CalcuRegFare = (TotalPass * RegFare);
+                                         int CalcuDisFare = (TotalPass * DisFare);
+
+                                System.out.println("------------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE                |");
+                                System.out.println("|                                              |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                        |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                     |");
+                                System.out.println("| Color of jeepney : Blue                      |");
+                                System.out.println("| Place to wait : Marquee Transport-           |");
+                                System.out.println("| Terminal & Plaridel Street                   |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + "   |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "  |" );
+                                System.out.println("------------------------------------------------");
+                        } else if (SecondChoice == 3) {
+                                System.out.println("----------------------------------------------");
+                                System.out.println("| Your destination is  Dalisay RMS Grocery   |");
+                                System.out.println("----------------------------------------------");
+
+                                        int TotalPass;
+                                        int RegFare = 16;
+                                        int DisFare = 14;
+
+                                        System.out.println("----------------------------------");
+                                        System.out.println("|      How many passengers?      |");
+                                        System.out.println("----------------------------------");
+
+                                        
+                                        TotalPass = sc.nextInt();
+                                         int CalcuRegFare = (TotalPass * RegFare);
+                                         int CalcuDisFare = (TotalPass * DisFare);
+
+                                System.out.println("------------------------------------------------");
+                                System.out.println("|       YOUR JEEPNEY FARE GUIDE                |");
+                                System.out.println("|                                              |");
+                                System.out.println("| Regular Fare : " + CalcuRegFare + " PHP                        |");
+                                System.out.println("| Discounted Fare : " + CalcuDisFare + " PHP                     |");
+                                System.out.println("| Color of jeepney : Blue                      |");
+                                System.out.println("| Place to wait : Marquee Transport-           |");
+                                System.out.println("| Terminal & Plaridel Street                   |");
+                                System.out.println("| Price Breakdown Regular Fare = " + RegFare + " * " + TotalPass + " = " +  CalcuRegFare + "   |" );
+                                System.out.println("| Price Breakdown Discount Fare = " + DisFare + " * " + TotalPass + " = " +  CalcuDisFare + "  |" );
+                                System.out.println("------------------------------------------------");
+                        } else {
+                                System.out.println("==========================================");
+                                System.out.println("|         NO KNOWN DESTINATION           |");
+                                System.out.println("==========================================");
+                        }
                 
                 
                 
@@ -671,9 +759,11 @@ public class JavaTry {
                 // User input if the user wants to search again or no //
                 // Do-While loop //
                 do {
+                    System.out.println("");
                     System.out.println("==========================");
                     System.out.println("| Search again? (yes/no) |");
                     System.out.println("==========================");
+                    System.out.println("");
                     again = sc.next();
                 
                 // If statement if the user input a wrong word //
@@ -682,6 +772,7 @@ public class JavaTry {
                         System.out.println("================================");
                         System.out.println("| Please enter only Yes or No. |");
                         System.out.println("================================");
+                        System.out.println("");
                     }
                 } while (!again.equalsIgnoreCase("yes") && !again.equalsIgnoreCase("no"));
 
@@ -692,6 +783,8 @@ public class JavaTry {
                         System.out.println("==========================================");
                         System.out.println("| THANK YOU FOR USING JEEPNEY FARE GUIDE |");
                         System.out.println("==========================================");
+                        System.out.println("|     HAVE A SAFE TRIP ANGELENEANS <3    |");
+                        System.out.println("==========================================");                        
 
         sc.close(); // For Closing the program //
     }
